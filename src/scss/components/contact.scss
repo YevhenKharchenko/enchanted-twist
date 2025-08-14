@@ -1,46 +1,44 @@
-.contact-cta-bg-wrapper {
-  @include media(desktop) {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../img/contact/contact-lines.png);
-    background-repeat: no-repeat;
-    background-position: top 0px left 0px;
-    background-size: auto;
-  }
-}
-
 .contact-section {
 }
 
 .contact-bg-wrapper {
-  padding-bottom: 80px;
+  padding-bottom: 65px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    padding-bottom: 152px;
+    padding-bottom: 63px;
     max-width: 1440px;
   }
 }
 
-.contact-text {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 16px;
+.contact-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-email-link {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
-  text-align: center;
-  color: #9d94ff;
+  gap: 6px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    gap: 15px;
+  }
+}
+
+.mail-icon {
+  @include media(desktop) {
+    width: 30px;
+    height: 30px;
+  }
 }
