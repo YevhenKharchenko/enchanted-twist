@@ -1,35 +1,35 @@
 .footer {
-  padding-bottom: 20px;
+  padding-bottom: 7px;
+  padding-bottom: 6px;
 
   @include media(desktop) {
+    padding-top: 0;
+    padding-bottom: 21px;
   }
 }
 
-.footer-content-wrapper {
+.footer-container {
   @include media(desktop) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 0 102px;
   }
 }
 
 .footer-nav {
-  margin-bottom: 32px;
+  margin-bottom: 29px;
 
   @include media(desktop) {
-    order: 2;
-    margin-bottom: 0;
+    margin-bottom: 51px;
   }
 }
 
 .footer-list {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 
   @include media(desktop) {
+    gap: 84px;
   }
 }
 
@@ -37,16 +37,15 @@
 }
 
 .footer-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gloock', sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
-  color: #fff;
+  color: #151515;
   transition: all 0.3s ease-in-out;
 
   @include media(desktop) {
-    font-family: 'Lora', sans-serif;
-    letter-spacing: 0.04em;
+    font-size: 20px;
   }
 
   &:hover,
@@ -54,31 +53,38 @@
   }
 }
 
+.footer-text-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
 .footer-email-link {
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-family: 'Gloock', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
   text-align: center;
-  color: #fff;
-  margin-bottom: 32px;
+  color: #151515;
+  margin-bottom: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   @include media(desktop) {
-    margin-bottom: 0;
-    order: 3;
+    font-size: 20px;
   }
 }
 
 .footer-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-family: 'Gloock', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
   text-align: center;
-  color: #fff;
+  color: #151515;
 
   @include media(desktop) {
-    order: 1;
+    font-size: 20px;
   }
 }

@@ -4,57 +4,51 @@
 }
 
 .hero-wrapper {
-  padding-top: 184px;
-  padding-bottom: 120px;
+  padding-top: 130px;
+  padding-bottom: 130px;
   max-width: 375px;
   margin: 0 auto;
-  background-image: url(../img/hero/hero-lines-mob.png);
+  background-image: url(../img/hero/hero-bg-mob.png);
   background-repeat: no-repeat;
-  background-position: top 0px left 0px;
+  background-position: bottom center;
   background-size: auto;
 
   @include media(desktop) {
-    padding-top: 277px;
-    padding-bottom: 160px;
+    padding-top: 200px;
+    padding-bottom: 200px;
     max-width: 1440px;
-    background-image: url(../img/hero/hero-top-lines.png),
-      url(../img/hero/hero-bottom-lines.png);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 0px left 0px, bottom 0px right 0px;
-    background-size: auto, auto;
+    background-image: url(../img/hero/hero-bg-desk.png);
   }
 }
 
+.hero-container {
+}
+
 .hero-title {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 300;
-  font-size: 48px;
+  font-family: 'Gloock', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
   text-align: center;
-  color: #9d94ff;
-  margin-bottom: 19px;
+  color: #eaeaea;
+  margin-bottom: 47px;
 
   @include media(desktop) {
-    font-size: 64px;
+    font-size: 40px;
+    letter-spacing: 0.12em;
   }
 }
 
 .hero-text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-family: 'DM Sans', sans-serif;
+  font-style: italic;
+  font-weight: 500;
   font-size: 20px;
-  text-align: center;
   color: #fff;
-  margin-bottom: 24px;
-
-  &:last-child {
-    font-style: italic;
-    margin-bottom: 0;
-  }
 
   @include media(desktop) {
+    font-size: 30px;
+    max-width: 969px;
+    margin-left: auto;
+    margin-right: auto;
   }
-}
-
-.hero-span {
-  font-weight: 500;
 }

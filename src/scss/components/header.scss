@@ -1,5 +1,5 @@
 .header {
-  background: #1f1f1f;
+  background: #f5ede4;
   position: fixed;
   width: 100%;
   top: 0;
@@ -10,40 +10,32 @@
 }
 
 .header-bg-wrapper {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-image: url(../img/hero/hero-lines-mob.png);
-  background-repeat: no-repeat;
-  background-position: top 0px left 0px;
-  background-size: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-image: url(../img/hero/hero-top-lines.png);
-    background-repeat: no-repeat;
-    background-position: top 0px left 0px;
-    background-size: auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
     max-width: 1440px;
   }
 }
 
 .header-container {
   @include media(desktop) {
-    padding: 0 160px;
   }
 }
 
 .nav {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
 
   @include media(desktop) {
     justify-content: center;
+    gap: 30px;
   }
 }
 
@@ -58,10 +50,9 @@
 
   @include media(desktop) {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 22px 24px;
+    gap: 28px;
   }
 }
 
@@ -69,10 +60,10 @@
 }
 
 .nav-list-link {
-  font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
   font-size: 20px;
-  color: #fff;
+  color: #000;
   transition: all 0.3s ease-in-out;
 
   &:hover,
@@ -92,4 +83,8 @@
   @include media(desktop) {
     display: none;
   }
+}
+
+.menu-icon {
+  stroke: #000;
 }
