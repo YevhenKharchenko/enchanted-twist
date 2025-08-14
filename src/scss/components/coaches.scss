@@ -1,0 +1,74 @@
+.coaches-section {
+}
+
+.coaches-bg-wrapper {
+  padding-bottom: 51px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-bottom: 124px;
+    max-width: 1440px;
+  }
+}
+
+.coaches-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  margin-bottom: 20px;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.coaches-list-item {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+
+  @include media(desktop) {
+    gap: 30px;
+  }
+}
+
+.coaches-img {
+  min-width: 30px;
+
+  @include media(desktop) {
+    gap: 60px;
+  }
+}
+
+.coaches-item-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  max-width: 183px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: max-content;
+  }
+}
+
+.coaches-text {
+  font-family: 'DM Sans', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}

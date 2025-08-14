@@ -1,0 +1,72 @@
+.scenarios-section {
+}
+
+.scenarios-bg-wrapper {
+  padding-bottom: 64px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-bottom: 114px;
+    max-width: 1440px;
+  }
+}
+
+.scenarios-container {
+  @include media(desktop) {
+    padding: 0 192px;
+  }
+}
+
+.scenarios-title {
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    margin-bottom: 30px;
+  }
+}
+
+.scenarios-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  @include media(desktop) {
+  }
+}
+
+.scenarios-list-item {
+  @include media(desktop) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:nth-child(odd) {
+      width: 711px;
+      margin-right: auto;
+    }
+
+    &:nth-child(even) {
+      width: 448px;
+      margin-left: auto;
+    }
+  }
+}
+
+.scenarios-item-text {
+  font-family: 'DM Sans', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  max-width: 321px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    max-width: max-content;
+  }
+}
