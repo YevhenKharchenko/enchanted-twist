@@ -1,0 +1,42 @@
+.cta-section {
+}
+
+.cta-bg-wrapper {
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-bottom: 152px;
+    max-width: 1440px;
+  }
+}
+
+.cta-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.cta-email-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.cta-icon {
+  min-width: 37px;
+}
+
+.cta-email-span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #9d94ff;
+}

@@ -1,0 +1,46 @@
+.contact-cta-bg-wrapper {
+  @include media(desktop) {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/contact/contact-lines.png);
+    background-repeat: no-repeat;
+    background-position: top 0px left 0px;
+    background-size: auto;
+  }
+}
+
+.contact-section {
+}
+
+.contact-bg-wrapper {
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-bottom: 152px;
+    max-width: 1440px;
+  }
+}
+
+.contact-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.contact-email-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  color: #9d94ff;
+}
