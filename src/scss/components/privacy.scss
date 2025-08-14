@@ -1,5 +1,5 @@
 .policy-section {
-  background: #1f1f1f;
+  background: #f5ede4;
   padding-top: 112px;
   padding-bottom: 32px;
 
@@ -10,54 +10,55 @@
 }
 
 .policy-main-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Gloock', sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 24px;
   text-align: center;
-  color: #fff;
-  margin-bottom: 24px;
+  color: #101010;
+  margin-bottom: 25px;
 
   @include media(desktop) {
-    font-size: 48px;
+    font-size: 44px;
+    margin-bottom: 30px;
   }
 }
 
 .policy-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 36px;
-  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  color: #101010;
   margin-bottom: 24px;
 
   @include media(desktop) {
-    font-size: 40px;
+    font-size: 24px;
   }
 }
 
 .policy-subtitle {
-  font-family: 'Montserrat', sans-serif;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 24px;
-  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #101010;
   margin-bottom: 24px;
 
   @include media(desktop) {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
 .policy-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  color: #fff;
+  font-size: 14px;
+  color: #101010;
 
   &:not(:last-child) {
     margin-bottom: 24px;
   }
 
   @include media(desktop) {
+    font-size: 24px;
   }
 }
 
@@ -67,10 +68,10 @@
 }
 
 .policy-item {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 20px;
-  color: #fff;
+  font-size: 14px;
+  color: #101010;
   margin-bottom: 8px;
 
   &:last-child {
@@ -78,6 +79,7 @@
   }
 
   @include media(desktop) {
+    font-size: 24px;
   }
 }
 
